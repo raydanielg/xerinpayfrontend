@@ -13,6 +13,16 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
+export const metadata = {
+  title: "Xerin Delivery — Logistics Platform",
+  description: "Multipurpose logistics & delivery management platform for domestic, international, and freight operations.",
+  icons: {
+    icon: "/assets/m app2.png",
+    shortcut: "/assets/m app2.png",
+    apple: "/assets/m app2.png",
+  },
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
